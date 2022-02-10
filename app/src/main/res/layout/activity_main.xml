@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/IntentResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Barkod No"
+        android:inputType="number"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/eatable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/eatable"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="eatable"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/gluten_amount"
+        app:layout_constraintEnd_toEndOf="@+id/IntentResult"
+        app:layout_constraintStart_toStartOf="@+id/IntentResult"
+        app:layout_constraintTop_toBottomOf="@+id/IntentResult" />
+
+    <EditText
+        android:id="@+id/gluten_amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="gluten miktarı"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnekle"
+        app:layout_constraintEnd_toEndOf="@+id/eatable"
+        app:layout_constraintStart_toStartOf="@+id/eatable"
+        app:layout_constraintTop_toBottomOf="@+id/eatable" />
+
+    <Button
+        android:id="@+id/btnekle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Kayıt Ekle/Guncelle"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvsonuc"
+        app:layout_constraintEnd_toEndOf="@+id/gluten_amount"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/gluten_amount"
+        app:layout_constraintTop_toBottomOf="@+id/gluten_amount" />
+
+    <TextView
+        android:id="@+id/tvsonuc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnekle" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="361dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/IntentResult"
+        app:layout_constraintEnd_toEndOf="@+id/IntentResult"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/IntentResult"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

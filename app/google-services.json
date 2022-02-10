@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "402625695161",
+    "firebase_url": "https://sugarfreedb-95246-default-rtdb.firebaseio.com",
+    "project_id": "sugarfreedb-95246",
+    "storage_bucket": "sugarfreedb-95246.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402625695161:android:b4874b04e124d4e155fa68",
+        "android_client_info": {
+          "package_name": "com.example.myapplication1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402625695161-bp3vb49pbo77635naoga2p5ebeo9om5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcd2pY3oIOgTvK6p-sPO5eFrIMrrjg3UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402625695161-bp3vb49pbo77635naoga2p5ebeo9om5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402625695161:android:a7c577f64e188fc955fa68",
+        "android_client_info": {
+          "package_name": "com.example.sugarfreeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402625695161-sa8pnckj3uoe5l7ta5e1hnovr48v0srn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sugarfreeapp",
+            "certificate_hash": "a2cd140ab4d326c59dccdcda614009ecbf79c6bd"
+          }
+        },
+        {
+          "client_id": "402625695161-bp3vb49pbo77635naoga2p5ebeo9om5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcd2pY3oIOgTvK6p-sPO5eFrIMrrjg3UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402625695161-bp3vb49pbo77635naoga2p5ebeo9om5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402625695161:android:10dd182f0bcef99655fa68",
+        "android_client_info": {
+          "package_name": "com.osmankubilay.sugarfreeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402625695161-95jo4lbutte5on4eis65p6sfk5jn014a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.osmankubilay.sugarfreeapp",
+            "certificate_hash": "01da1772c68752b96778c95fc787ce4e06188166"
+          }
+        },
+        {
+          "client_id": "402625695161-bp3vb49pbo77635naoga2p5ebeo9om5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcd2pY3oIOgTvK6p-sPO5eFrIMrrjg3UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402625695161-bp3vb49pbo77635naoga2p5ebeo9om5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
